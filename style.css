@@ -1,0 +1,26 @@
+.row {
+    border: 1px solid black;
+    padding: 2px;
+    margin: 5px;
+    width: 100%;
+}
+
+.row::after {
+    clear: both;
+}
+
+#search {
+    border: 1px solid #de56ff;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.search:focus {
+    border: 1px solid black !important;
+}
+
+.menu {
+    padding: 6px;
+    color: #de56ff;
+
+}
